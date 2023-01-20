@@ -25,12 +25,12 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com/saep.02'
-global.syt = 'https://youtube.com/channel/UC28pUSJ1MyZhqGL_lamNQRw'
-global.sgh = 'https://github.com/SaepEp'
-global.sgc = 'https://chat.whatsapp.com/JytIVwVnOCIFQBA93eZEXu'
-global.swa = 'wa.me/628812743180'
-global.swb = 'https://discord.gg/4HvezMAw'
+global.sig = 'https://chat.whatsapp.com/EPmjuw9X1wZDGX1p4NCV1e'
+global.syt = 'https://youtube.com/channel/UCUmkGSW0FF6OyJ9x5uLal5g'
+global.sgh = 'https://github.com/icontol'
+global.sgc = 'https://chat.whatsapp.com/EPmjuw9X1wZDGX1p4NCV1e'
+global.swa = 'wa.me/6285876830674'
+global.swb = 'https://discord.gg/'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
 /*============== PAYMENT ==============*/
@@ -42,19 +42,18 @@ global.ppulsa2 = '-'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6288221354110'
-global.nomorown = '628812743180'
-global.nomorown1 = '628812743180'
-global.namebot = 'NexBotz'
-global.nameown = 'NexEp'
+global.nomorbot = '6281909541146'
+global.nomorown = '6285876830674'
+global.nomorown1 = '6285876830674'
+global.namebot = 'Sansbot'
+global.nameown = 'Ivan'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6288221354110'],
-  ['6283891677178'],
-  ['18126338970'],
-  ['628812743180', 'NexEp', true]
+  ['6285809011357'],
+  ['6285876830674'],
+  ['6285876830674', 'siuuu', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -104,16 +103,16 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'By NexBotz' //Main Watermark
-global.wm2 = 'NexEp'
-global.wm3 = 'NexBotz | By NexEp'
+global.wm = 'By SANSBOT' //Main Watermark
+global.wm2 = 'SANSBOT'
+global.wm3 = 'SANSBOT | By IVAN'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `NexBotz | ʙʏ ${global.nameown}`
-global.author = 'NexEp' 
-global.packname = 'NexEp'
-global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
-global.ultahowner = 'Juli 11 2022'
+global.titlebot = `SANSBOT | ʙʏ ${global.nameown}`
+global.author = 'Ivan' 
+global.packname = 'Ivan'
+global.danied = '🗿'
+global.ultahowner = 'September 10 2023'
 
 
 /*============== LOGO ==============*/
