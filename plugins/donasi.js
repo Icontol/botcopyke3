@@ -1,26 +1,35 @@
-import fs from 'fs';
-let handler = async (m, { conn, text, usedPrefix }) => {
+let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
+let text = `
+┌─「 Donasi • Pulsa 」
+│ • *Indosat:* [085876830674]
+│ • *Indosat:* [085809011357]
+❏────
 
-    let img = fs.readFileSync('./thumbnail.jpg');
-    let img2 = `https://telegra.ph/file/8f7e2b662ac8dc4f7f562.jpg`
-    return conn.sendButton(m.chat, 'Pm Owner aja \n❏ https://wa.me/628812743180 ', 'Makasih, thanks for you donate...', img2, [["MENU", usedPrefix + "menu"], ["OWNER", usedPrefix + "owner"]], m, {
-        contextInfo: {
-            externalAdReply: {
-                mediaUrl: "https://instagram.com/saep.02",
-                mediaType: "VIDEO",
-                title: 'Donasi To NexEp ',
-                body: bottime,
-                previewType: 0,
-                thumbnail: img
-            }
-        }
-    })
+┌─「 Donasi • Non Pulsa 」
+│ • *Dana:* [085876830674]
+│ • *Shopee* ↓
+│   [112085876830674]
+❏────
+`
+const templateButtons = [
+    {index: 1, urlButton: {displayText: 'gc 🗿', url: sgc}},
+    {index: 2, urlButton: {displayText: '📷 Instagram', url: sig}},
+    {index: 3, urlButton: {displayText: '🌎 Official Group', url: sgc}},
+    {index: 4, quickReplyButton: {displayText: 'Menu', id: '.menu'}},
+    {index: 5, quickReplyButton: {displayText: 'Owner', id: '.owner'}},
+]
+let tm = {
+text: text,
+footer: global.wm,
+templateButtons: templateButtons,
+image: {url: fla + 'Donasi'}
 }
-handler.help = ['donasi']
-
+conn.sendMessage(m.chat, tm, m)
+}
+handler.command = /^(donasi|dns)$/i
 handler.tags = ['info']
-
-handler.command = /^(donasi|donate)$/i
-
+handler.help = ['donasi']
+handler.premium = false
+handler.limit = false
 
 export default handler
