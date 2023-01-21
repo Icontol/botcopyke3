@@ -39,7 +39,7 @@ let mangkane38 = "mangkane38"
 let mangkane39 = "mangkane39"
 let mangkane40 = "mangkane40"
 let snd = `${pickRandom([mangkane25,mangkane26,mangkane27,mangkane28,mangkane29,mangkane30,mangkane31,mangkane32,mangkane33,mangkane34,mangkane35,mangkane36,mangkane37,mangkane38,mangkane39,mangkane40])}`
-let audio = `./mp3/nexep.opus`
+let audio = `./mp3/jancok.mp3`
 await conn.sendFile(m.chat, audio, 'araa.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: false, seconds: 0,contextInfo: {
