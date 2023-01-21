@@ -116,28 +116,28 @@ global.ultahowner = 'September 10 2023'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/06c4e93a3d3f388b2642d.jpg'
-global.giflogo = 'https://ibb.co/3sJ0ybv'
-global.thumbbc = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4' //For broadcast
-global.giflogo = 'https://telegra.ph/file/1c067b349efe8f97e2817.jpg'
-global.giflogo2 = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
-global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
+global.thumb = 'https://telegra.ph/file/2cb377366f990d128aede.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/2cb377366f990d128aede.jpg'
+global.giflogo = 'https://ibb.co/r0Vt8bY'
+global.thumbbc = 'https://telegra.ph/file/4f36ec45b612def63521a.mp4' //For broadcast
+global.giflogo = 'https://telegra.ph/file/4f36ec45b612def63521a.mp4'
+global.giflogo2 = 'https://telegra.ph/file/2cb377366f990d128aede.jpg'
+global.thumbs = ['https://telegra.ph/file/2cb377366f990d128aede.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.thumbBanned = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
-global.thumbWarn = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
-global.botintro = 'Hallo, Kenalin saya NexBotz Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh NexEp Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
-global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
-/*============== GLOBAL BIO ==============*/
-global.nameowner = 'NexEp'
-global.umurowner = '19'
-global.asalowner = 'Jawa Barat, Bekasi'
-global.nomorowner = 'wa.me/628812743180'
-global.pacarowner = 'Kaede Hitotsuba'
+global.thumbBanned = 'https://telegra.ph/file/2cb377366f990d128aede.jpg'
+global.thumbWarn = 'https://telegra.ph/file/2cb377366f990d128aede.jpg'
+global.botintro = 'Hallo, Kenalin saya Sansbot Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh Ivan'
+global.intro = 'https://telegra.ph/file/183dbb588860972fd68ca.jpg'
+/*============== GLOBAL BIO ============
+global.nameowner = 'Ivan'
+global.umurowner = '16'
+global.asalowner = 'Jawa Tengah, Rembang'
+global.nomorowner = 'wa.me/6285876830674'
+global.pacarowner = 'ytta'
 
 /*============== TEXT ==============*/
-global.wait = '```𝙇𝙤𝙖𝙙𝙞𝙣𝙜...```'
-global.eror = '```𝙉𝙤𝙩 𝙁𝙤𝙪𝙣𝙙 𝟰𝟬𝟰 𝙀𝙧𝙤𝙧```'
+global.wait = '```𝙇𝙤𝙖𝙙𝙞𝙣𝙜 🗿...```'
+global.eror = '```𝙀𝙧𝙤𝙧 🗿```'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -146,7 +146,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/eab73c91053a1c4072931.jpg'
+global.thumbdoc = 'https://telegra.ph/file/183dbb588860972fd68ca.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
@@ -387,8 +387,8 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/fd/21/41/fd21419275236bb153de3c8dcbbf3bf9.jpg',
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 /*============== STICKER WM ==============*/
-global.stickpack = 'By NexBotz'
-global.stickauth = `NexEp`
+global.stickpack = 'By sansbot'
+global.stickauth = `[IVAN]`
 
 global.multiplier = 38 // The higher, The harder levelup
 
