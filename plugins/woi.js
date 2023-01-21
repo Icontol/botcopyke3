@@ -14,7 +14,7 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
   let name = await conn.getName(m.sender)
-  let runnya = `〔 *RUNTIME BOT* 〕
+  let runnya = `〔 *RUNTIME SANSBOT* 〕
  Waktu: ${time} WIB
  Aktif Selama : ${uptime}
  Tag : ${name}`
@@ -32,10 +32,10 @@ contextInfo: { externalAdReply :{
                         mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
-                        title: `A MIMIR🎧 : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+                        title: `SANSBOT🎧 : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
                         body: `Join Grup`,          previewType: 0,
                         thumbnail: await (await fetch(`https://i.ibb.co/5st560k/fake.jpg`)).buffer(),
-                        sourceUrl: 'https://chat.whatsapp.com/JytIVwVnOCIFQBA93eZEXu'
+                        sourceUrl: 'https://chat.whatsapp.com/EPmjuw9X1wZDGX1p4NCV1e'
             }
         }
     })
