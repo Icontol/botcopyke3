@@ -73,6 +73,6 @@ ptt: false, seconds: 0,contextInfo: {
 }
 handler.help = ['menu']
 handler.tags = ['menu']
-handler.command = /^testing?$/i
+handler.command = /^menu?$/i
 
 export default handler
