@@ -17,7 +17,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['tiktok', 'tiktok', 'tiktokdl'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^(tik(tok)?(tok)?(dl)?)$/i
+handler.command = /^(tt|tik(tok)?(tok)?(dl)?)$/i
 handler.level = 40
 
 export default handler
