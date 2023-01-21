@@ -53,9 +53,9 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
   let speed = neww - old
     conn.sendHydrated(m.chat, 
     '*––––––『 BOT INFO 』––––––*', 
-`🤖 ɴᴀᴍᴇ: ${_package.name}
+`🤖 ɴᴀᴍᴇ: VAN01
 🧩 ᴠᴇʀsɪᴏɴ: ${_package.version}
-📚 ʟɪʙʀᴀʀʏ: ${_package.description}
+📚 ʟɪʙʀᴀʀʏ: SANSBOT
 👩‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: ivan
 
 ⏳ ᴜᴩᴛɪᴍᴇ: ${uptime}
@@ -74,7 +74,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 ⮕ ${groupsIn.length - groupsIn.length} - Groups Left
 ⮕ ${chats.length - groupsIn.length} - Personal Chats
 ⮕ ${chats.length} - Total Chats
-`.trim(), './media/botinfo.jpg', 'https://chat.whatsapp.com/IFjWiJjVM0dHBEK6j05GEF', '🎀GRUP', null, null, [
+`.trim(), './media/botinfo.jpg', 'https://chat.whatsapp.com/EPmjuw9X1wZDGX1p4NCV1e', '🎀GRUP', null, null, [
 [`👑ᴏᴡɴᴇʀ`, `${usedPrefix}owner`],
 [`💱ᴅᴏɴᴀᴛᴇ`, `${usedPrefix}donasi`]
 ], m, {asLocation: false})
