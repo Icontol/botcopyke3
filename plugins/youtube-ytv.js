@@ -53,6 +53,6 @@ handler.command = /^yt(v|mp4)?$/i
 handler.exp = 0
 handler.register = true
 handler.limit = true
-handler.level = 20
+handler.level = 1
 
 export default handler
